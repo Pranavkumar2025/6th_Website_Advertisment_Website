@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="top-banner">Figma prototype testing just got a whole lot better! Read more-></div>
+
+    <nav>
+        <div class="container-nav  all-nav flex">
+            <div class="nav-img"><img src="asset 1.png" alt="#"></div>
+            <div class="main-nav active" id="toggle-main-nav">
+                <ul class="flex">
+                    <li id="box-1" class="nav-box"><a href="#">Product <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li id="box-2" class="nav-box"><a href="#">Customers</a></li>
+                    <li id="box-3" class="nav-box"><a href="#">Pricing</a></li>
+                    <li id="box-4" class="nav-box"><a href="#">Resources <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li id="box-5" class="nav-box"><a href="#">Sign in</a></li>
+                    <li id="box-6" class="nav-box"><a href="#">Sing Up</a></li>
+                </ul>
+            </div>
+            <!-- <a href="" class="nav-toggle nav-box" id="toggle-bar"> -->
+                <i class="fa-solid fa-bars nav-toggle" id="menu" onclick="onClickMenu()"></i>
+            <!-- </a> -->
+        </div>
+
+    </nav>
+
+    <header class="container-nav main-container flex">
+        <div class="header-box1 flex">
+            <h2 slot="text-align:center;">Desigin Confidently.</h2>
+            <p style="text-align: center;">UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by
+                validating them with real users.</p>
+            <ul>
+                <li class="header-btn" id="box-6">Get Started</li>
+            </ul>
+        </div>
+        <div class="header-box2">
+            <img src="asset 2.jpeg" alt="" class="img">
+        </div>
+    </header>
+
+    <section class="companies-section container-nav">
+        <p>The world,s best companies rely on UsabilityHub to make better design decisions.</p>
+        <div class="companies-logo flex">
+            <img src="asset 3.png" alt="#">
+            <img src="asset 4.png" alt="#">
+            <img src="asset 5.png" alt="#">
+            <img src="asset 6.png" alt="#">
+            <img src="asset 7.png" alt="#">
+            <img src="asset 9.png" alt="#">
+        </div>
+    </section>
+
+    <section>
+        <div class="features-section container-nav">
+            <div class="features-section-box1 flex">
+                <h2 style="text-align: center;">Your user research Swiss Army knife</h2>
+                <p class="bgt">See All Features <i class="fa-solid fa-right-long"></i></p>
+            </div>
+            <div class="features-section-box2 flex">
+                <div class="first-sqrt flex">
+                    <div class="sqrt flex" id="sqrt1">
+                        <h3>Card Sorting</h3>
+                        <p>Discover how people group and label information.</p>
+                        <p class="bgt1">Learn More <i class="fa-solid fa-right-long"></i></p>
+                    </div>
+                    <div class="sqrt flex" id="sqrt2">
+                        <h3>Prototype tests</h3>
+                        <p>Discover how people navigate your Figma prototypes.</p>
+                        <p class="bgt1">Learn More <i class="fa-solid fa-right-long"></i></p>
+                    </div>
+                    <div class="sqrt flex" id="sqrt3">
+                        <h3>First click tests</h3>
+                        <p>Test interaction with first click and navigation tests.</p>
+                        <p class="bgt1">Learn More <i class="fa-solid fa-right-long"></i></p>
+                    </div>
+                </div>
+                <div class="second-sqrt flex">
+                    <div class="sqrt flex" id="sqrt4">
+                        <h3>Design surveys</h3>
+                        <p>Get feedback on images, videos or audio files.</p>
+                        <p class="bgt1">Learn More <i class="fa-solid fa-right-long"></i></p>
+                    </div>
+                    <div class="sqrt flex" id="sqrt5">
+                        <h3>Preference tests</h3>
+                        <p>Find out which designs users prefer and why.</p>
+                        <p class="bgt1">Learn More <i class="fa-solid fa-right-long"></i></p>
+                    </div>
+                    <div class="sqrt flex" id="sqrt6">
+                        <h3>Five second tests</h3>
+                        <p>Test comprehensibility by measuring first impressions.</p>
+                        <p class="bgt1">Learn More <i class="fa-solid fa-right-long"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="big-features-section flex container-nav">
+        <div class="big-features-section-box1">
+            <img src="asset 18.png" alt="#">
+        </div>
+        <div class="big-features-section-box2">
+            <div class="bfs1">
+                <p style="font-weight: bold; text-align: initial;">Effortless validation for</p>
+                <h2 style="text-align: initial;">Desigin Professional</h2>
+                <p class="fontmin">
+                    Test interfaces, interaction flows, iconography and more, to help you create intuitive and
+                    delightful experiences for your users.
+                </p>
+            </div>
+            <div class="bfs2">
+                <img src="asset 19.png" alt="#">
+                <p style="font-weight: bold;">The navigation test is god's gift to UI designers, it probably has the
+                    best power-to-simplicity ratio of any software, ever.</p>
+                <div class="bfs2-img flex">
+                    <img src="asset 20.png" alt="">
+                    <p>Nick Frankline <br>
+                        Chief Executive officer
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="big-features-section for-resp flex container-nav">
+        <div class="big-features-section-box2">
+            <div class="bfs1">
+                <p style="font-weight: bold; text-align: initial;">Optimisation for</p>
+                <h2 style="text-align: initial;">Marketers</h2>
+                <p class="fontmin">
+                    Fine-tune landing pages, messaging, and creative, helping you optimise conversion rates on marketing
+                    campaigns and product launches.
+                </p>
+            </div>
+            <div class="bfs2">
+                <img src="asset 22.png" alt="#">
+                <p style="font-weight: bold;">We use UsabilityHub tests to help us make decisions for various projects.
+                    From web and mobile design to marketing activities.</p>
+                <div class="bfs2-img flex">
+                    <img src="asset 23.png" alt="">
+                    <p>Rick van de Ven<br>
+                        Digital Marketing Analyst
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="big-features-section-box1">
+            <img src="asset 21.png" alt="#">
+        </div>
+    </section>
+    <section class="big-features-section flex container-nav">
+        <div class="big-features-section-box1">
+            <img src="asset 24.png" alt="#">
+        </div>
+        <div class="big-features-section-box2">
+            <div class="bfs1">
+                <p style="font-weight: bold; text-align: initial;">Easier decision making for</p>
+                <h2 style="text-align: initial;">Product managers</h2>
+                <p class="fontmin">
+                    Ensure you're delivering the right features to the right customers by validating product concepts
+                    with your target audience.
+                </p>
+            </div>
+            <div class="bfs2">
+                <img src="asset 25.png" alt="#">
+                <p style="font-weight: bold;">Adopting UsabilityHub got us into the habit of asking our users questions
+                    before locking in decisions.</p>
+                <div class="bfs2-img flex">
+                    <img src="asset 26.png" alt="">
+                    <p>Ron Diorio <br>
+                        VP Innovation & New Products
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="example-section flex container-nav">
+            <div class="example-section-box1 flex">
+                <h2>One platform, endless possibilities</h2>
+                <p class="bgt">See More Example <i class="fa-solid fa-right-long"></i></p>
+            </div>
+            <div class="example-section-box2 flex">
+                <div class="esb" id="esb1">
+                    <a href="">Can user complete a task in my software interface ?</a>
+                </div>
+                <div class="esb" id="esb2">
+                    <a href="">Can user find important pages on my Website ?</a>
+                </div>
+                <div class="esb" id="esb3">
+                    <a href="">Is my Website's intended audience clear ?</a>
+                </div>
+                <div class="esb" id="esb4">
+                    <a href="">Do visitor understand What page is about ?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-section-container flex container-nav">
+            <div class="cta-section-box1">
+                <div class="cta-section-Mbox1">
+                    <h1>No Participants ?</h1>
+                    <h1>No Problem</h1>
+                    <p style="color: rgb(176, 169, 169);">
+                        Our integrated panel allows you to quickly and affordably recruit research participants that
+                        precisely match your target audience.
+                    </p>
+                </div>
+                <div class="cta-section-Mbox2">
+                    <h3>Our Panel includes:</h3>
+                    <div class="Mbox flex" style="color: rgb(176, 169, 169);">
+                        <ul>
+                            <li>530k+ panel participants</li>
+                            <li>35+ demographic options</li>
+                            <li>Free demographic targeting</li>
+                        </ul>
+                        <ul>
+                            <li>Coverage in 100+ countries</li>
+                            <li>Average 2hr turn around time</li>
+                            <li>Response quality guarantee</li>
+                        </ul>
+                    </div>
+                    <div class="btn-Mbox flex">
+                        <p id="box-6">Try the panel calculator</p>
+                        <p>or</p>
+                        <p id="box-5" style="color: rgb(176, 169, 169);">Learn more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-section-box2">
+                <img class="img1" src="asset 40.png" alt="#">
+                <!-- <img class="img2" src="asset 41.png" alt=""> -->
+            </div>
+        </div>
+    </section>
+    <section class="testing-sec">
+        <div class="container-nav testing-sec-box flex">
+            <h1 class="testing-head">Start testing today</h1>
+            <p class="testing-para1">Take the guesswork out of design decisions</p>
+            <p class="testing-para2" id="box-6">Get Started</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-sec-container container-nav flex">
+            <div class="footer-cont1 nav-img">
+                <img src="asset 1.png" alt="">
+            </div>
+            <div class="footer-cont2 flex">
+                <div class="footer-mbox1 flex" style="flex-direction: column;">
+                    <h4 style="margin-bottom: 20px;">Product</h4>
+                    <a href="">Overview</a><a href="">Pricing</a><a href="">Research Panel</a><a href="">Customers</a><a
+                        href="">Status page</a><a href="">Sign up</a><a href="">Book a demo</a>
+
+                </div>
+                <div class="footer-mbox2 flex" style="flex-direction: column;">
+                    <h4 style="margin-bottom: 20px;">Methodologies</h4>
+                    <a href="">Card sorting</a><a href="">Prototype testing</a><a href="">First Click tests</a><a
+                        href="">Preference tests</a><a href="">Five second tests</a><a href="">Desigin Surveys</a>
+
+                </div>
+                <div class="footer-mbox3 flex" style="flex-direction: column;">
+                    <h4 style="margin-bottom: 20px;">Resources</h4>
+                    <a href="">Blog</a><a href="">Examples</a><a href="">Testing Guides</a><a href="">Research
+                        panel</a><a href="">calculator</a><a href="">Help center</a><a href="">Contact</a><a
+                        href="">Careers</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="mainfooter">
+        <div class="sub-footer flex ">
+            <div class="sub-footer-box1 flex">
+                <p>Privacy Policy</p>
+                <p>Term & Condition</p>
+                <p>Security information</p>
+            </div>
+            <div class="sub-footer-box2">
+                <img src="asset 28.png" alt="#">
+                <img src="asset 29.png" alt="#">
+                <img src="asset 30.png" alt="#">
+                <img src="asset 31.png" alt="#">
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/5d5edd06b7.js" crossorigin="anonymous"></script>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
